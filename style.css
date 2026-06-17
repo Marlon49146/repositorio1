@@ -18,6 +18,7 @@ body {
     line-height: 1.6;
     color: var(--colo-texto);
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background-color: var(--color-segundario);
 }
@@ -34,6 +35,11 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav ul {
